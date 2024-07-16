@@ -18,6 +18,7 @@
         "prettier": "^3.3.3"
     },
     "scripts": {
+        "dev": "next dev",
         "lint": "eslint 'app/**/*.{js,jsx}'",
         "lint:fix": "eslint 'app/**/*.{js,jsx}' --fix",
         "format": "prettier --write 'app/**/*.{js,jsx,css,scss,md,html}'"
